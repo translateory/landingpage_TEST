@@ -1,0 +1,144 @@
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 105%;
+  letter-spacing: 0.15em;
+  color: $primary;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 110%;
+  letter-spacing: 0.07em;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 136%;
+  &.sm {
+    font-size: 30px;
+  }
+}
+
+h4 {
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  &.big {
+    font-size: 26px;
+  }
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 108.68%;
+  letter-spacing: 0.07em;
+  &.big {
+    font-weight: 600;
+    font-size: 22px;
+  }
+}
+p {
+  &.xlg {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 133%;
+  }
+  &.lg {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+  }
+  &.big {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0.07em;
+  }
+  &.sm {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 138%;
+  }
+  &.ex {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0.07em;
+  }
+}
+.main {
+  overflow: hidden;
+  padding-top: 60px;
+}
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-family: $mainFont;
+  &.primary {
+    background-color: $primary;
+    padding: 10px 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.135em;
+    border-radius: 30px;
+    color: #fdfeff;
+    &:hover {
+      opacity: 1;
+      background-color: #2f3d55;
+    }
+  }
+  &.secondary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2f3d55;
+    padding: 12px 30px;
+    background-color: #e8ebf0;
+    border-radius: 25px;
+    &:hover {
+      opacity: 1;
+      background-color: #5a6b82;
+      color: $white;
+    }
+  }
+}
+.input {
+  display: flex;
+  input,
+  textarea {
+    width: 100%;
+    height: 100%;
+    font-family: $mainFont;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(17, 24, 40, 0.4);
+    border-radius: 30px;
+    padding: 14px 40px;
+  }
+  textarea {
+    border-radius: 40px;
+    resize: unset;
+    padding: 25px 40px;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

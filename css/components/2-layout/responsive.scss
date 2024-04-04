@@ -1,0 +1,279 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+
+  @include hero-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 130%;
+    &.xlg {
+      font-size: 24px;
+    }
+    &.lg {
+      font-size: 22px;
+    }
+    &.big {
+      font-size: 20px;
+    }
+    &.sm {
+      font-size: 16px;
+    }
+  }
+  body {
+    font-size: 18px;
+    line-height: 130%;
+  }
+  @include hero-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+    &.sm {
+      font-size: 26px;
+    }
+  }
+  .input {
+    input,
+    textarea {
+      font-size: 20px;
+      line-height: 24px;
+      border-radius: 24px;
+      padding: 12px 30px;
+    }
+    textarea {
+      border-radius: 24px;
+      padding: 18px 30px;
+    }
+  }
+  @include hero-lg-xlg;
+  @include newsletter-lg-xlg;
+  @include lang-lg-xlg;
+  @include footer-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .button {
+    &.secondary {
+      font-size: 16px;
+      line-height: 22px;
+      padding: 12px 20px;
+      border-radius: 20px;
+    }
+  }
+  @include hero-md-lg;
+  @include benefits-md-lg;
+  @include services-md-lg;
+  @include lang-md-lg;
+  @include footer-md-lg;
+  @include process-md-lg;
+  @include success-md-lg;
+}
+
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 26px;
+    &.sm {
+      font-size: 22px;
+    }
+  }
+  h5 {
+    font-size: 22px;
+    &.big {
+      font-size: 24px;
+    }
+  }
+  h6 {
+    font-size: 13px;
+    &.big {
+      font-size: 20px;
+    }
+  }
+  p {
+    font-size: 16px;
+    &.xlg {
+      font-size: 22px;
+    }
+    &.lg {
+      font-size: 20px;
+    }
+    &.big {
+      font-size: 18px;
+    }
+    &.sm {
+      font-size: 14px;
+    }
+    &.ex {
+      font-size: 10px;
+    }
+  }
+  body {
+    font-size: 16px;
+  }
+  @include hero-sm-md;
+  @include testimonials-sm-md;
+  @include benefits-sm-md;
+  @include newsletter-sm-md;
+  @include services-sm-md;
+  @include lang-sm-md;
+  @include process-sm-md;
+  @include success-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  @include hero-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+    &.sm {
+      font-size: 20px;
+    }
+  }
+  h5 {
+    font-size: 18px;
+    &.big {
+      font-size: 20px;
+    }
+  }
+  h6 {
+    &.big {
+      font-size: 16px;
+    }
+  }
+  p {
+    &.xlg {
+      font-size: 18px;
+    }
+    &.lg {
+      font-size: 18px;
+    }
+    &.big {
+      font-size: 16px;
+    }
+  }
+  .button {
+    &.primary {
+      font-size: 15px;
+      line-height: 20px;
+      padding: 8px 28px;
+    }
+  }
+  .input {
+    input,
+    textarea {
+      font-size: 14px;
+      line-height: 18px;
+      border-radius: 15px;
+      padding: 10px 16px;
+    }
+    textarea {
+      border-radius: 15px;
+      padding: 12px 16px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  .main {
+    padding-top: 55px;
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include hero-xsm-sm;
+  @include success-xsm-sm;
+  @include info-xsm-sm;
+  @include partners-xsm-sm;
+  @include testimonials-xsm-sm;
+  @include benefits-xsm-sm;
+  @include newsletter-xsm-sm;
+  @include services-xsm-sm;
+  @include lang-xsm-sm;
+  @include process-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  h5 {
+    font-size: 16px;
+    &.big {
+      font-size: 16px;
+    }
+  }
+  p {
+    font-size: 14px;
+    &.xlg {
+      font-size: 16px;
+    }
+    &.lg {
+      font-size: 16px;
+    }
+    &.sm {
+      font-size: 12px;
+    }
+  }
+  body {
+    font-size: 14px;
+  }
+  @include hero-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}
